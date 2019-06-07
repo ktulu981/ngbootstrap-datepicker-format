@@ -10,6 +10,7 @@ app.module.ts dosyasında import kısmına imports: [NgbModule] ekliyoruz.(Yukar
 
 ngbDateFRParserFormatter.ts dosyasını oluşturun.
 
+```
 import {
   NgbDateParserFormatter,
   NgbDateStruct
@@ -41,7 +42,7 @@ export class NgbDateFRParserFormatter extends NgbDateParserFormatter {
     );
   }
 }
-
+```
 
 
 app.module.ts dosyasında providers kısmına;
